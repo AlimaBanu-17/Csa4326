@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display JSON Data</title>
+</head>
+<body>
+
+<h2>JSON Data Example</h2>
+
+<div id="output"></div>
+
+<script>
+// Create a JSON object
+var person = {
+    "name": "John Doe",
+    "age": 25,
+    "email": "john@example.com",
+    "city": "New York"
+};
+
+// Display JSON data
+var output = "<p>Name: " + person.name + "</p>" +
+             "<p>Age: " + person.age + "</p>" +
+             "<p>Email: " + person.email + "</p>" +
+             "<p>City: " + person.city + "</p>";
+
+document.getElementById("output").innerHTML = output;
+</script>
+
+</body>
+</html>
