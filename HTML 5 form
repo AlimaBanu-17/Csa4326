@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Form</title>
+</head>
+<body>
+
+<form>
+    Username:
+    <input type="text" required><br><br>
+
+    Password:
+    <input type="password" required><br><br>
+
+    Email:
+    <input type="email" required><br><br>
+
+    Gender:
+    <input type="radio" name="g"> Male
+    <input type="radio" name="g"> Female<br><br>
+
+    Date of Birth:
+    <input type="date"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
