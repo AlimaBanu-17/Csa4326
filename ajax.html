@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Increment Counter</title>
+</head>
+<body>
+
+<h2>Increment Counter using AJAX</h2>
+
+<p>Counter: <span id="counter">0</span></p>
+<button onclick="increment()">Increment</button>
+
+<script>
+var count = 0;
+
+function increment() {
+    // Simulate AJAX call using setTimeout
+    setTimeout(function() {
+        count++; // Increment counter
+        document.getElementById("counter").innerHTML = count;
+    }, 100); // 100ms delay to simulate server response
+}
+</script>
+
+</body>
+</html>
